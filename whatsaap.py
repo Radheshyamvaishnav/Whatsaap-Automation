@@ -1,9 +1,9 @@
 from selenium import webdriver
 
-driver = webdriver.Chrome(executable_path="D:\\chromedriver_win32\\chromedriver.exe")
+driver = webdriver.Chrome(executable_path="D:\\chromedriver_win32\\chromedriver.exe")    # Give here your path to chromedriver
 
-driver.get("https://web.whatsapp.com/")
-driver.maximize_window()
+driver.get("https://web.whatsapp.com/")       
+driver.maximize_window()         
 
 name = input("Enter name of group or Individual")
 msg = input("Enter the msg")
